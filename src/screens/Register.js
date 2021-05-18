@@ -7,7 +7,7 @@ export default function Register({ navigation }) {
     <View style={styles.container}>
       <Title style={styles.title}>Registration</Title>
       <Subheading style={styles.subtitle}>
-        Please register your email and password
+        yuk, isi email dan password kamu
       </Subheading>
       <TextInput
         placeholder="Email"
@@ -23,7 +23,7 @@ export default function Register({ navigation }) {
         secureTextEntry
       />
       <TextInput
-        placeholder="Date"
+        placeholder="Age"
         style={styles.textInput}
         mode="outlined"
         underlineColor="none"

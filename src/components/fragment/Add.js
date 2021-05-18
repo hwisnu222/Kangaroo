@@ -9,7 +9,7 @@ export default function Add() {
   const [alarm, setAlarm] = useState(true);
   return (
     <SafeAreaView>
-      <HeaderTitle title="Add" />
+      <HeaderTitle title="Tambah" />
       <View style={styles.container}>
         <Card style={styles.card}>
           <TextInput

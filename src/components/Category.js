@@ -16,7 +16,7 @@ export default function Category() {
           source={require("../../assets/icon/sun.png")}
           style={styles.iconButton}
         />
-        <Text style={styles.textButton}>Category</Text>
+        <Text style={styles.textButton}>Kategori</Text>
       </View>
     </TouchableOpacity>
   );

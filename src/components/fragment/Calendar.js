@@ -13,7 +13,7 @@ export default function Calendar() {
   };
   return (
     <SafeAreaView>
-      <HeaderTitle title="Calendar" />
+      <HeaderTitle title="Kalendar" />
       <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
         <Card style={styles.card}>
           <CalendarPicker

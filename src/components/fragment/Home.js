@@ -17,23 +17,24 @@ export default function Home() {
   for (let i = 0; i <= 5; i++) {
     category.push(<Category key={i} />);
   }
+
   return (
     <SafeAreaView>
-      <View style={styles.header}>
-        <View>
-          <Title style={styles.titleHeader}>Hii Wisnu</Title>
-          <Subheading style={styles.subheadingHeader}>
-            Yuk Kerjakan tugas hari ini
-          </Subheading>
+      <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
+        <View style={styles.header}>
+          <View>
+            <Title style={styles.titleHeader}>Hii Wisnu</Title>
+            <Subheading style={styles.subheadingHeader}>
+              Yuk Kerjakan tugas hari ini
+            </Subheading>
+          </View>
+          <Avatar.Icon
+            size={36}
+            icon="bell"
+            style={styles.icon}
+            color="#000000"
+          />
         </View>
-        <Avatar.Icon
-          size={36}
-          icon="bell"
-          style={styles.icon}
-          color="#000000"
-        />
-      </View>
-      <ScrollView style={styles.container}>
         <View style={styles.banner}>
           <Image source={require("../../../assets/book.png")} />
           <View style={styles.imageBanner}>
@@ -47,6 +48,10 @@ export default function Home() {
         </ScrollView>
         <Title style={styles.category}>Misi Hari Ini</Title>
         <ListTask />
+        <ListTask />
+        <ListTask />
+        <ListTask />
+        <ListTask />
       </ScrollView>
     </SafeAreaView>
   );
@@ -54,7 +59,6 @@ export default function Home() {
 
 const styles = StyleSheet.create({
   header: {
-    marginHorizontal: 16,
     marginTop: 48,
     flexDirection: "row",
     justifyContent: "space-between",

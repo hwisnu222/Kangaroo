@@ -9,7 +9,7 @@ import ListTask from "../ListTask";
 export default function Task() {
   return (
     <View>
-      <HeaderTitle title="Task" />
+      <HeaderTitle title="Tugas" />
       <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
         <ListTask />
         <ListTask />

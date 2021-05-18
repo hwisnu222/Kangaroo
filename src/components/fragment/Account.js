@@ -22,7 +22,7 @@ export default function Account() {
   };
   return (
     <View>
-      <HeaderTitle title="Account" />
+      <HeaderTitle title="Akun" />
       <View style={styles.container}>
         <View style={styles.profile}>
           <Avatar.Image
@@ -39,6 +39,7 @@ export default function Account() {
         <Text style={styles.menuList}>Akun</Text>
         <Text style={styles.menuList}>Bookmark</Text>
         <Text style={styles.menuList}>Bantuan</Text>
+        <Text style={styles.menuList}>Bagikan</Text>
         <Text style={styles.menuList} onPress={handleDialog}>
           Keluar
         </Text>

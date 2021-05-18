@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text } from "react-native";
+import { StyleSheet, SafeAreaView } from "react-native";
 import { BottomNavigation, Button } from "react-native-paper";
 
 // components
@@ -28,13 +28,20 @@ export default function Home() {
   });
 
   return (
-    <View style={{ height: "100%" }}>
+    <SafeAreaView style={styles.container}>
       <BottomNavigation
         navigationState={{ index, routes }}
         onIndexChange={setIndex}
         renderScene={renderScene}
-        barStyle={{ backgroundColor: "#ffffff" }}
+        barStyle={styles.bar}
       />
-    </View>
+    </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  bar: {
+    backgroundColor: "#ffffff",
+  },
+  container: { height: "100%" },
+});

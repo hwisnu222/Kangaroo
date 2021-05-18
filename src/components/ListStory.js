@@ -1,16 +1,18 @@
 import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 
-export default function ListTask() {
+export default function ListStory() {
   return (
     <View style={styles.list}>
-      <Image source={require("../../assets/book.png")} />
+      <Image
+        source={{
+          uri: "https://images.unsplash.com/photo-1560809451-9e77c2e8214a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+        }}
+        style={styles.thumbnail}
+      />
       <View style={styles.body}>
         <Text style={styles.title}>Title</Text>
         <Text style={styles.subTitle}>Subtitle</Text>
-      </View>
-      <View styles={styles.mark}>
-        <Text style={styles.markTask}>Prioritas</Text>
       </View>
     </View>
   );
@@ -38,14 +40,9 @@ const styles = StyleSheet.create({
     opacity: 0.6,
     fontSize: 15,
   },
-  mark: {
-    paddingHorizontal: 48,
-  },
-  markTask: {
-    paddingHorizontal: 6,
-    paddingVertical: 2,
-    backgroundColor: "#F8A0A0",
-    borderRadius: 5,
-    fontWeight: "700",
+  thumbnail: {
+    width: 56,
+    height: 56,
+    borderRadius: 10,
   },
 });

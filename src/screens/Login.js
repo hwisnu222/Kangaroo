@@ -7,7 +7,7 @@ export default function Login({ navigation }) {
     <View style={styles.container}>
       <Title style={styles.title}>Login</Title>
       <Subheading style={styles.subtitle}>
-        Please login using email and password
+        Login dengan email dan password kamu
       </Subheading>
       <TextInput
         placeholder="Email"
