@@ -2,11 +2,11 @@ import React from "react";
 import { View, StyleSheet, Text, Image, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-export default function Category() {
+export default function Category({ data }) {
   const navigation = useNavigation();
   return (
     <TouchableOpacity
-      style={styles.itemCategory}
+      style={[styles.itemCategory, { backgroundColor: data.color }]}
       onPress={() => {
         navigation.navigate("Story");
       }}
@@ -16,7 +16,7 @@ export default function Category() {
           source={require("../../assets/icon/sun.png")}
           style={styles.iconButton}
         />
-        <Text style={styles.textButton}>Kategori</Text>
+        <Text style={styles.textButton}>{data.title}</Text>
       </View>
     </TouchableOpacity>
   );
@@ -31,7 +31,6 @@ const styles = StyleSheet.create({
     alignItems: "flex-start",
     width: 150,
     borderRadius: 10,
-    backgroundColor: "#F2E2C9",
     flexDirection: "column",
   },
   textButton: {
@@ -39,6 +38,7 @@ const styles = StyleSheet.create({
     marginTop: 6,
     color: "#202B40",
     fontWeight: "700",
+    opacity: 0.8,
   },
   iconButton: {
     maxHeight: 24,

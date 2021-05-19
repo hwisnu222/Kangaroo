@@ -22,10 +22,6 @@ export default function Calendar() {
             }}
           />
         </Card>
-        <TaskList />
-        <TaskList />
-        <TaskList />
-        <TaskList />
       </ScrollView>
     </SafeAreaView>
   );

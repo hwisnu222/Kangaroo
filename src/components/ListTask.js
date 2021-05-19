@@ -1,13 +1,13 @@
 import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 
-export default function ListTask() {
+export default function ListTask({ data }) {
   return (
     <View style={styles.list}>
       <Image source={require("../../assets/book.png")} />
       <View style={styles.body}>
-        <Text style={styles.title}>Title</Text>
-        <Text style={styles.subTitle}>Subtitle</Text>
+        <Text style={styles.title}>{data.item.title}</Text>
+        <Text style={styles.subTitle}>{data.item.content}</Text>
       </View>
       <View styles={styles.mark}>
         <Text style={styles.markTask}>Prioritas</Text>
@@ -33,10 +33,12 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontSize: 16,
     marginBottom: 4,
+    opacity: 0.8,
   },
   subTitle: {
     opacity: 0.6,
     fontSize: 15,
+    height: 15,
   },
   mark: {
     paddingHorizontal: 48,
@@ -47,5 +49,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#F8A0A0",
     borderRadius: 5,
     fontWeight: "700",
+    opacity: 0.8,
   },
 });

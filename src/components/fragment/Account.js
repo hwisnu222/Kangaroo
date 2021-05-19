@@ -37,8 +37,18 @@ export default function Account() {
           </View>
         </View>
         <Text style={styles.menuList}>Akun</Text>
-        <Text style={styles.menuList}>Bookmark</Text>
-        <Text style={styles.menuList}>Bantuan</Text>
+        <Text
+          style={styles.menuList}
+          onPress={() => navigation.navigate("Bookmark")}
+        >
+          Bookmark
+        </Text>
+        <Text
+          style={styles.menuList}
+          onPress={() => navigation.navigate("Help")}
+        >
+          Bantuan
+        </Text>
         <Text style={styles.menuList}>Bagikan</Text>
         <Text style={styles.menuList} onPress={handleDialog}>
           Keluar

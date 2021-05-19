@@ -1,0 +1,9 @@
+[
+  { "id": 1, "title": "Santai", "color": "#A0D8F8" },
+  { "id": 2, "title": "Lucu", "color": "#F2E2C9" },
+  { "id": 3, "title": "Sedih", "color": "#F8A0A0" },
+  { "id": 4, "title": "Tokoh", "color": "#9BEE9A" },
+  { "id": 5, "title": "Motivasi", "color": "#A0D8F8" },
+  { "id": 6, "title": "Bijak", "color": "#F2E2C9" },
+  { "id": 7, "title": "Cerdik", "color": "#F8A0A0" }
+]

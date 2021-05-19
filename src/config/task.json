@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Rapat Organisasi",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    "date": "20-2-2021",
+    "do": true
+  },
+  {
+    "id": 2,
+    "title": "Beli Kopi",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    "date": "20-2-2021",
+    "do": true
+  },
+  {
+    "id": 3,
+    "title": "Presentasi",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    "date": "20-2-2021",
+    "do": true
+  },
+  {
+    "id": 4,
+    "title": "Persiapan Rapat",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    "date": "20-2-2021",
+    "do": true
+  },
+  {
+    "id": 5,
+    "title": "Tanda Tangan",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    "date": "20-2-2021",
+    "do": true
+  },
+  {
+    "id": 6,
+    "title": "Ambil Jadwal",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    "date": "20-2-2021",
+    "do": true
+  },
+  {
+    "id": 7,
+    "title": "Kumpul Organisasi",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    "date": "20-2-2021",
+    "do": true
+  }
+]
